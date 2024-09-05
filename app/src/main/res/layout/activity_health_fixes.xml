@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00BCD4"
+    tools:context=".healthFixes">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="23dp">
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="                                                                                                                                                                                                                                                                                                                                                                                                                                                                TRY THESE FIXES : Taking deep breaths and counting to 10 can help you calm down and give yourself a chance to think before reacting. This can prevent you from saying or doing something in the heat of the moment that you might regret later.  Engaging in physical activity, such as running or boxing, can help you release pent-up emotions in a healthy way. Writing in a journal or talking to someone you trust can also help you process your emotions and gain perspective.  Identifying the source of your anger and addressing it directly can help you feel more in control and reduce the intensity of your emotions. This might involve having a difficult conversation with someone or taking action to change your situation.  Reflecting on your feelings and trying to understand why you're feeling angry can help you develop greater self-awareness and insight. This can also help you identify patterns in your behavior or thought processes that might be contributing to your anger.                                                                                         Seeking support from a friend or family member can help you feel less alone and provide a safe space to talk about your feelings."
+                android:textSize="20sp" />
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:text="Improve by reading these fixes"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
